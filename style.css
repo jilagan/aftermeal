@@ -1,0 +1,20 @@
+body {
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  color: #1c1c1e;
+  background: #fff;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+h1 { font-size: 28px; margin: 0 0 4px; }
+h2 { font-size: 19px; margin: 32px 0 8px; }
+p, li { margin: 0 0 12px; }
+.muted { color: #6b6b70; font-size: 15px; }
+nav { margin-bottom: 32px; font-size: 15px; }
+nav a { margin-right: 16px; }
+a { color: #1e6f66; }
+@media (prefers-color-scheme: dark) {
+  body { background: #111; color: #eee; }
+  .muted { color: #a0a0a6; }
+  a { color: #5bc0b2; }
+}
